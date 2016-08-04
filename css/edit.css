@@ -1,0 +1,89 @@
+    
+@font-face{
+
+    font-family: DV;
+    src:url('../fonts/CaviarDreams.ttf');
+
+}
+@font-face{
+  font-family: CV;
+  src:url('../fonts/Champagne&Limousines.ttf');
+}
+@font-face{
+  font-family: myFont;
+  src: url('../fonts/WalkwaySemiBold.ttf');
+}
+a{
+	font-family: CV;
+}
+
+}
+input{
+
+	padding-right:3%;
+	font-family: CV;
+
+}
+header .jumbotron{
+	background-image:url('../img/inter.jpg'); 
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-attachment: fixed;
+	padding: 15%;
+	padding-bottom: 0;	
+	background-color: white;
+	padding-bottom: 20px;
+}
+fieldset{
+	width: 20%;
+}
+.jumbotron h1	{
+	
+	font-family: DV;
+	color: white;
+	letter-spacing: 10px;
+	font-size: 100px;
+	width: 35%;
+	margin-top: -10%;
+}
+.jumbotron h3	{
+	font-family: CV;
+	font-size: 17px;
+}
+.bgImg{
+
+	padding-bottom: 100px;
+	margin-left: 450px;
+	margin-top: 200px;
+	position:absolute;
+	opacity: 0.1;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+.backAndEditbtn{
+
+
+	 color: black;    
+    background-color: Transparent;
+    background-repeat:no-repeat;   
+  	 font-size: 13px;
+     padding: 5px 10px;
+     border: solid black 1px;	
+
+ }
+
+textarea{
+	resize: none;
+	width: 50%;
+	height: 150px;
+}
+/* input file    */
+	
+
+
+
+/* input file    */
+

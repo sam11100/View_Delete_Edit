@@ -1,0 +1,224 @@
+    
+@font-face{
+
+    font-family: DV;
+    src:url('../fonts/CaviarDreams.ttf');
+
+}
+@font-face{
+  font-family: CV;
+  src:url('../fonts/Champagne&Limousines.ttf');
+}
+@font-face{
+  font-family: myFont;
+  src: url('../fonts/WalkwaySemiBold.ttf');
+}
+
+.video1{
+    margin-left:29.2%;
+}
+.video2{
+    width: 30%;
+    margin-left:60.8%;
+    position: absolute;
+    margin-top: -19.7%;
+}
+.video3{
+    width: 30%;
+    margin-left:-9.9%;
+    position: absolute;
+    margin-top: -19.7%;
+}
+.heading{
+    padding: 0 0;
+    background-color: black;
+}
+
+
+.heading h1 {
+    font-family: DV;
+    position: absolute;
+    margin-top: -14%;
+    margin-left:32.5%;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 30px;
+}
+@media screen and (max-width:1737px){.heading h1{margin-left:33.5%;font-size: 70px;}}
+@media screen and (max-width:1610px){.heading h1{margin-left:30.5%;font-size: 70px;}}
+@media screen and (max-width:1437px){.heading h1{margin-left:31.5%;font-size: 50px;}}
+@media screen and (max-width:1327px){.heading h1{margin-left:30.5%;font-size: 50px;}}
+@media screen and (max-width:1208px){.heading h1{margin-left:30.5%;font-size: 50px;}}
+@media screen and (max-width:1137px){.heading h1{margin-left:33.5%;font-size: 35px;letter-spacing: 20px;}}
+@media screen and (max-width:769px){.heading h1{margin-left:31.5%;font-size: 35px;letter-spacing: 14px;}}
+@media screen and (max-width:697px){.heading h1{margin-left:29.5%;font-size: 35px;letter-spacing: 14px;}}
+@media screen and (max-width:531px){.video1,.video2,.video3{display: none;}
+    .heading h1{
+        margin-left:22.5%;
+        font-size: 35px;
+        letter-spacing: 14px;
+        margin-top: -27%;
+        }
+    .bgImg{
+        
+        background-image: url('../img/forza.jpg');
+        padding-bottom: 200px;
+        background-size:contain;
+        background-position:center;
+        background-repeat: no-repeat;
+        
+   } 
+
+}
+@media screen and (max-width:435px){.heading h1{margin-left:34.5%;font-size: 35px;letter-spacing: 14px;margin-top: -37%;}}
+@media screen and (max-width:393px){.heading h1{margin-left:34.5%;font-size: 35px;letter-spacing: 14px;margin-top: -37%;}}
+@media screen and (max-width:363px){.heading h1{margin-left:39.5%;font-size: 35px;letter-spacing: 14px;margin-top: -40%;}}
+
+
+video{
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.videoBG{
+
+
+	/*background-image: url('../img/bugadi.jpg'); */
+	background-size: cover;
+	width: 100%;
+    z-index: -2;
+    min-height: 0px;
+    background-color: black;
+
+}
+
+.headerOverlay{
+
+   
+    color: white;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 300px;
+    letter-spacing:20px;
+
+}
+
+.headerOverlay h1{
+    font-size: 100px;
+    font-family: DV;
+}
+@media screen and (max-width:500px){.jumbotron{width:114%;}}
+@media screen and (max-width:450px){.jumbotron{width:125%;}}
+@media screen and (max-width:422px){.jumbotron{width:128%;}}
+@media screen and (max-width:405px){.jumbotron{width:142%;}}
+@media screen and (max-width:365px){.jumbotron{width:158%;}}
+    
+
+.videoBG video{
+
+    width: 50%;
+    height: 50%;
+    margin-top: -100px;
+    margin-left: 300px;
+
+}
+.videoBG2 video{
+    position: absolute;
+    width: 22%;
+    height: 40%;
+    margin-top: -215px;
+    margin-left: 10px;
+
+}
+.videoBG3 video{
+    position: absolute;
+    width: 23%;
+    height: 40%;
+    margin-top: -215px;
+    margin-left: 950px;
+}
+.videoBG4 video{
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    margin-top: -275px;
+    margin-left: 805px; 
+}
+.videoBG5 video{
+
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    margin-top: -275px;
+    margin-left: -13px;
+}
+.jumbotronn h1{
+
+	color:white;
+	background-color: black;
+	width:30%;
+	padding-left: 75px 
+    z-index:1;
+}
+
+@media screen and (max-width:1152px){.jumbotron h1{width:40%;}}
+@media screen and (max-width:857px){.jumbotron h1{width:50%;}}
+@media screen and (max-width:451px){.jumbotron h1{width:60%;}}
+@media screen and (max-width:377px){.jumbotron h1{width:80%;}}
+
+
+
+.my-container{
+	padding-left: 75px 
+}
+
+
+table {
+    width:100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    }
+
+    td {
+    width:176px;
+    padding: 0 10px 0 0;
+    margin: 0;
+    border: 0;
+    }
+ 	.proDelandAddBtn{
+
+    color: black;    
+    background-color: Transparent;
+    background-repeat:no-repeat;   
+  	 font-size: 10px;
+     padding: 5px 10px;
+     border: solid black 1px;   
+    }
+
+
+
+
+
+
+table tr td img{
+	width: 100%;
+}
+
+@media screen and (max-width:548px){table tr td img{width: 90%;}}
+@media screen and (max-width:411px){table tr td img{width: 100%;}}
+
+
+
+
+
+
+
+
+
+
+
